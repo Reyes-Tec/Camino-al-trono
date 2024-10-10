@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('Home.home');
 });
+Route::get('/historia', function () {
+    return view('Home.historia');
+});
