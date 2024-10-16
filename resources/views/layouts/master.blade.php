@@ -8,13 +8,15 @@
     <title>@yield('titulo')</title> <!-- Aquí puedes insertar títulos específicos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Almendra&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container" id="input">
             <a class="navbar-brand" href="home">
-                <i class="bi bi-crown"></i> Camino al Trono
+                <i class="fas fa-crown"></i> Camino al Trono
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

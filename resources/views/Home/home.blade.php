@@ -5,18 +5,27 @@
 
 @section('contenido')
 <section id="inicio" class="mb-5">
-    <h1 class="display-4 mb-4 text-center">Bienvenido a Camino al Trono</h1>
+    <h1 class="display-4 mb-4 text-center" id="titulo">Bienvenido a Camino al Trono</h1>
     <p class="lead mb-4">
-        Sumérgete en un emocionante juego de estrategia ambientado en la Edad Media.
-        ¡Forja alianzas y reclama tu derecho al trono!
+        ¡Bienvenido a "Camino al Trono", un emocionante videojuego de aventura que te transportará a un mundo medieval lleno de desafíos y sorpresas! En este reino vasto y misterioso, tendrás la oportunidad de vivir una experiencia épica donde la acción, la estrategia y la exploración se entrelazan. Prepárate para sumergirte en una aventura inolvidable, donde tu habilidad para enfrentar enemigos, superar obstáculos y desvelar los secretos del trono será puesta a prueba. ¿Tienes lo necesario para reclamar la corona?
     </p>
     <div class="ratio ratio-16x9 mb-4">
         <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
     </div>
-    <div class="bg-dark p-4 rounded mb-4">
-        <h2 class="h3 mb-3">Sobre el Juego</h2>
-        <p>Camino al Trono, es un videojuego de aventura ambientado en la Edad Media, donde el jugador asume el papel de un aspirante a rey que debe completar una serie de desafíos para demostrar que es digno de la corona. El proyecto ha sido desarrollado por un equipo de cuatro personas con roles bien definidos en el área de desarrollo de videojuegos y promoción web. El objetivo principal del juego es que los jugadores vivan una experiencia de aventura y acción estratégica, combinando combate, recolección de objetos y toma de decisiones, todo ambientado en un reino medieval ficticio.</p>
+
+    <div class="flip-card text-center">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <p class="title">SOBRE EL JUEGO</p>
+                <div class="img"><img src="img/arthor.png" width="230"></div>
+            </div>
+            <div class="flip-card-back">
+                <p class="slide-in">"Camino al Trono" es un emocionante videojuego de aventura que combina elementos de acción, estrategia y exploración en un vasto reino medieval. En este mundo lleno de desafíos, los jugadores asumirán el rol de un héroe en busca de la corona perdida, enfrentándose a numerosos enemigos y obstáculos en el camino. Con mecánicas de juego fluidas, podrás correr, saltar, escalar paredes y combatir con diversas armas, como la espada y el arco, en un sistema de combate dinámico que te mantendrá siempre en acción. El reino está diseñado con paisajes vibrantes que van desde majestuosas montañas hasta oscuros bosques, cada uno lleno de detalles que enriquecen la experiencia. A medida que avanzas, vivirás una historia cautivadora, donde tu misión será recolectar poderosos escudos y desvelar los secretos del trono, mientras los efectos de sonido inmersivos te sumergen aún más en esta atmósfera medieval. En "Camino al Trono", cada decisión que tomes influirá en tu destino, y solo aquellos con la astucia y el valor necesarios podrán reclamar lo que les pertenece. ¡Prepárate para una aventura épica que no olvidarás!</p>
+            </div>
+        </div>
     </div>
+    <br>
+
     <div class="text-center">
         <button class="descarga">
             DESCARGAR
