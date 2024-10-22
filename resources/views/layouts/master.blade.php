@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item" id="nav">
-                        <a class="nav-link" href="home">
+                        <a class="nav-link" href="/">
                             <img src="img/home.png" width="20" alt="Galería" class="me-2"> Inicio
                         </a>
                     </li>
@@ -34,12 +34,12 @@
                         </a>
                     </li>
                     <li class="nav-item" id="nav">
-                        <a class="nav-link" href="#galeria">
+                        <a class="nav-link" href="galeria">
                             <img src="img/galeria.png" width="20" alt="Galería" class="me-2"> Galería
                         </a>
                     </li>
                     <li class="nav-item" id="nav">
-                        <a class="nav-link" href="#soporte">
+                        <a class="nav-link" href="soporte">
                             <img src="img/soporte.png" width="20" alt="Galería" class="me-2"> Soporte
                         </a>
                     </li>

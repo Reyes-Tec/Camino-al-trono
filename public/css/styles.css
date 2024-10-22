@@ -264,8 +264,8 @@ p {
 }
 
 .flip-card-inner {
-    position: relative;
-    width: 100%;
+    position: center;
+    width: 92.5%;
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
@@ -292,28 +292,17 @@ p {
 }
 
 .flip-card-front {
-    background: linear-gradient(
-        120deg,
-        rgb(94, 70, 46) 30%,
-        rgb(108, 69, 34) 88%,
-        rgb(93, 55, 11) 40%,
-        rgb(67, 40, 6) 78%
-    );
+    background: linear-gradient(to bottom, #4e342e, #8d6e63, #1c1513);
     color: rgb(255, 255, 255);
 }
 
 .flip-card-back {
-    background: linear-gradient(
-        120deg,
-        rgb(87, 60, 33) 30%,
-        rgb(66, 47, 29) 88%,
-        rgb(81, 56, 27) 40%,
-        rgb(62, 47, 28) 78%
-    );
+    background: linear-gradient(to bottom, #e1a26f, #8b6355, #714e15);
+    color: rgb(255, 255, 255);
     transform: rotateY(180deg);
     font-size: 10pt;
     color: #ffffff;
-    padding: 5%;
+    padding: 1%;
 }
 
 .img {
