@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('titulo', 'Historia')
+@section('titulo', 'Sorporte')
 
 @section('contenido')
 <section id="historia" class="mb-5">
