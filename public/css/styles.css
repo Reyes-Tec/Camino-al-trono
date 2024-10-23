@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     font-weight: 200;
 }
+
 p {
     text-align: justify;
 }
@@ -275,7 +276,9 @@ p {
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-
+#footer{
+    text-align: center;
+}
 .flip-card-front,
 .flip-card-back {
     box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
