@@ -13,19 +13,15 @@
         <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
     </div>
 
-    <div class="flip-card text-center">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <p class="title">SOBRE EL JUEGO</p>
-                <div class="img"><img src="img/arthor.png" width="230"></div>
-            </div>
-            <div class="flip-card-back">
-                <p class="slide-in">"Camino al Trono" es un emocionante videojuego de aventura que combina elementos de acción, estrategia y exploración en un vasto reino medieval. En este mundo lleno de desafíos, los jugadores asumirán el rol de un héroe en busca de la corona perdida, enfrentándose a numerosos enemigos y obstáculos en el camino. Con mecánicas de juego fluidas, podrás correr, saltar, escalar paredes y combatir con diversas armas, como la espada y el arco, en un sistema de combate dinámico que te mantendrá siempre en acción. El reino está diseñado con paisajes vibrantes que van desde majestuosas montañas hasta oscuros bosques, cada uno lleno de detalles que enriquecen la experiencia. A medida que avanzas, vivirás una historia cautivadora, donde tu misión será recolectar poderosos escudos y desvelar los secretos del trono, mientras los efectos de sonido inmersivos te sumergen aún más en esta atmósfera medieval. En "Camino al Trono", cada decisión que tomes influirá en tu destino, y solo aquellos con la astucia y el valor necesarios podrán reclamar lo que les pertenece. ¡Prepárate para una aventura épica que no olvidarás!</p>
-            </div>
+    <div class="sjuego">
+        <img src="img/arthor2.png" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">SOBRE LA HISTORIA</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
     </div>
-    <br>
-
+            <br>
     <div class="text-center">
         <button class="descarga">
             DESCARGAR
