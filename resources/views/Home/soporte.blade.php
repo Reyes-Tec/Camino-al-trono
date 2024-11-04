@@ -3,58 +3,55 @@
 @section('titulo', 'Sorporte')
 <link rel="stylesheet" href="{{ asset('css/soporte.css') }}">
 @section('contenido')
-<section id="historia" class="mb-5">
-    <div class="container">
-        
-    </div>
-     <!-- FAQ Section -->
-     <div class="row mt-5">
-        <div class="col-12">
-            <h3>Preguntas Frecuentes (FAQ)</h3>
-            <div class="accordion" id="faqAccordion">
-                <!-- Pregunta 1 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faq1">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                            ¿Cómo descargo el juego?
-                        </button>
-                    </h2>
-                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Visita nuestra página de descargas y selecciona la versión compatible con tu dispositivo. ¡Es muy sencillo!
+<section class="contact-section ">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center" >
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                        <h3 style="color: black;">REQUISITOS PREVIOS</h3>
+                        <hr class="my-4 mx-auto" />
+                        <div class="small text-black-50">
+                            <h4 style="color: black;">Hadware:</h4>
+                            <ul style="color: black;">
+                                <li>CPU: Procesador con soporte para SSE2.</li>
+                                <li>RAM: Al menos 2 GB (4 GB recomendados).</li>
+                                <li>Almacenamiento: Según el tamaño del juego, puede requerir entre 100 MB y varios GB.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!-- Pregunta 2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="faq2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                            ¿Cuáles son los requisitos mínimos del sistema?
-                        </button>
-                    </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Requisitos mínimos: Procesador i3, 4GB RAM, 2GB de espacio libre en disco, tarjeta gráfica básica. Sistema operativo Windows, Mac o Linux.
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-primary mb-2"></i>
+                        <h3 style="color: black;">GUÍAS Y TUTORIALES</h3>
+                        <hr class="my-4 mx-auto" />
+                        <div class="small text-black-50">
+                            <h4><a href="/#descarga" style="color: black;">Ir al apartado de descarga</a></h4><br>
+                            <h4><a href="#" style="color: black;">MANUAL DE USUARIO: APRENDE A JUGAR </a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                        <h3 style="color: black;">CONTACTOS</h3>
+                        <hr class="my-4 mx-auto" />
+                        <div class="small text-black-50"style="color: black;" >
+                            <h4 style="color: black; text-transform:lowercase">chucdaniel66@gmail.com</h4><br>
+                            <h4 style="color: black; text-transform:lowercase">e.alejandra2106@gmail.com</h4><br>
+                            <h4 style="color: black; text-transform:lowercase">karenquijano2406@gmail.com</h4><br>
+                            <h4 style="color: black; text-transform:lowercase">tecconcepcion09@gmail.com</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Guías y Tutoriales Section -->
-    <div class="row mt-5">
-        <div class="col-12">
-            <h3>Guías y Tutoriales</h3>
-            <ul class="list-group">
-                <li class="list-group-item"><a href="#">Manual de Usuario: Aprende a jugar desde cero</a></li>
-                <li class="list-group-item"><a href="#">Guía de Personajes: Conoce a Arthor y sus habilidades</a></li>
-                <li class="list-group-item"><a href="#">Consejos y Estrategias: Mejora tu rendimiento en el juego</a></li>
-            </ul>
-        </div>
-    </div>
-    
-
-
 </section>
 @endsection

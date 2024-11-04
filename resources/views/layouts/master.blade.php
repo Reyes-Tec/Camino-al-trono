@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Almendra&display=swap" rel="stylesheet">
 
+
 </head>
 
 <body>
@@ -49,12 +50,12 @@
     </nav>
 
     <!-- Aquí irá el contenido de cada página específica -->
-    <main class="container mt-5">
-        @yield('contenido') <!-- Sección para el contenido -->
+    <main class="container mt-5"> <!-- Ajusta el valor según la altura de tu navbar -->
+        @yield('contenido')
     </main>
 
     <footer class="bg-dark text-center text-white py-3 mt-5" id="footer">
-        <p>&copy; 2024 Camino al Trono. Todos los derechos reservados.</p>
+        <p style="text-align: center;">&copy; 2024 Camino al Trono. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Bootstrap JS and Popper.js -->

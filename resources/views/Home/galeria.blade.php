@@ -4,8 +4,8 @@
 
 @section('contenido')
 <section id="historia" class="mb-5">
-    <div class="container">
-    <div class="row">
+    <div class="container" >
+    <div class="row"  style=" padding-top: 4rem;">
             <div class="col-md-4 mb-4">
                 <img src="img/ejemplo1.jpeg" class="img-fluid rounded" alt="Image 1">
             </div>
